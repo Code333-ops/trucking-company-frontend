@@ -1,0 +1,20 @@
+<svg width="200" height="100" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f4f4f4"/>
+  
+  <!-- Truck Icon -->
+  <rect x="20" y="60" width="60" height="20" fill="#333"/>
+  <rect x="30" y="50" width="40" height="20" fill="#333"/>
+  <circle cx="30" cy="80" r="10" fill="#333"/>
+  <circle cx="70" cy="80" r="10" fill="#333"/>
+  
+  <!-- Text -->
+  <text x="100" y="50" font-family="Arial, sans-serif" font-size="36" fill="#333" font-weight="bold">
+    TLL
+  </text>
+  
+  <!-- Optional: Add tagline or extra text -->
+  <text x="100" y="80" font-family="Arial, sans-serif" font-size="14" fill="#666" text-anchor="middle">
+    Trucking Logistics Leaders
+  </text>
+</svg>

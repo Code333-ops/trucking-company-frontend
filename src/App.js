@@ -1,5 +1,10 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import logo from './logo.svg'; // Correct path to logo.svg
+import TruckList from './TruckList';
+import ScheduleTruck from './ScheduleTruck';
+import RouteMap from './RouteMap';
+import DriverProfile from './DriverProfile';
 
 function App() {
   return (
@@ -18,6 +23,12 @@ function App() {
           Learn React
         </a>
       </header>
+      <main>
+        <TruckList />
+        <ScheduleTruck />
+        <RouteMap />
+        <DriverProfile match={{ params: { id: '1' } }} />
+      </main>
     </div>
   );
 }

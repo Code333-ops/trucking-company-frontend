@@ -1,3 +1,7 @@
+/* App.css */
+
+/* Existing styles */
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* New styles for the map container */
+.map-container {
+  width: 100%; /* Full width */
+  height: 100vh; /* Full viewport height */
+  position: relative;
+}
+
+.map {
+  height: 100%; /* Full height of the map container */
 }

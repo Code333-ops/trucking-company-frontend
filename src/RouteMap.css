@@ -1,0 +1,12 @@
+/* RouteMap.css */
+
+.map-container {
+    width: 100%;  /* Adjust width as needed */
+    height: 100vh; /* Full viewport height */
+    position: relative;
+  }
+  
+  .map {
+    height: 100%; /* Ensure the map takes up the full height of the container */
+  }
+  
